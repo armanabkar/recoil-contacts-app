@@ -1,0 +1,23 @@
+.name_container {
+  width: 100%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  font-size: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+.name_container:hover {
+  transform: scale(1.05);
+  background-color: #2195f32c;
+}
+
+.name_selected {
+  background-color: #2196f3;
+  color: white;
+}
+
+.name_selected:hover {
+  background-color: #2196f3;
+  color: white;
+}
